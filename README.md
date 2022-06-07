@@ -27,8 +27,22 @@ mvn validate -P broken
 [INFO] ---------------------< io.mattnelson:menforcer394 >---------------------
 [INFO] Building menforcer394 1.0-SNAPSHOT
 [INFO] --------------------------------[ pom ]---------------------------------
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/plugins/maven-enforcer-plugin/3.1.0/maven-enforcer-plugin-3.1.0.pom
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/plugins/maven-enforcer-plugin/3.1.0/maven-enforcer-plugin-3.1.0.pom (7.2 kB at 8.9 kB/s)
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer/3.1.0/enforcer-3.1.0.pom
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer/3.1.0/enforcer-3.1.0.pom (8.3 kB at 24 kB/s)
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/plugins/maven-enforcer-plugin/3.1.0/maven-enforcer-plugin-3.1.0.jar
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/plugins/maven-enforcer-plugin/3.1.0/maven-enforcer-plugin-3.1.0.jar (26 kB at 54 kB/s)
 [INFO]
 [INFO] --- maven-enforcer-plugin:3.1.0:enforce (default) @ menforcer394 ---
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-api/3.1.0/enforcer-api-3.1.0.pom
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-api/3.1.0/enforcer-api-3.1.0.pom (2.9 kB at 9.1 kB/s)
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-rules/3.1.0/enforcer-rules-3.1.0.pom
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-rules/3.1.0/enforcer-rules-3.1.0.pom (4.9 kB at 15 kB/s)
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-api/3.1.0/enforcer-api-3.1.0.jar
+[INFO] Downloading from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-rules/3.1.0/enforcer-rules-3.1.0.jar
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-api/3.1.0/enforcer-api-3.1.0.jar (11 kB at 34 kB/s)
+[INFO] Downloaded from staged-releases: https://repository.apache.org/content/groups/staging/org/apache/maven/enforcer/enforcer-rules/3.1.0/enforcer-rules-3.1.0.jar (118 kB at 108 kB/s)
 [WARNING]
 Dependency convergence error for org.projectlombok:lombok:jar:1.18.24:runtime paths to dependency are:
 +-io.mattnelson:menforcer394:pom:1.0-SNAPSHOT
